@@ -1,0 +1,29 @@
+{
+  "facets": [
+    {
+      "typeId": "it.vedph.iconography.instructions",
+      "name": "instructions",
+      "description": "Iconography instructions.",
+      "required": true,
+      "colorKey": "98F8F8",
+      "groupKey": "identity",
+      "sortKey": "a"
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "baseTextPartTypeId": "it.vedph.token-text",
+      "users": [ "zeus" ],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.iconography.instructions"
+      }
+    ],
+    "fragmentSeeders": [
+    ]
+  }
+}

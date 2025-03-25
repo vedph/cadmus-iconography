@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<Authors>Daniele Fusi</Authors>
+		<Company>Fusi</Company>
+		<Product>Cadmus</Product>
+		<Description>Cadmus iconography API services.</Description>
+		<Copyright>by Daniele Fusi</Copyright>
+		<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+		<PackageTags>Cadmus;iconography</PackageTags>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<Version>0.0.1</Version>
+		<FileVersion>0.0.1</FileVersion>
+		<AssemblyVersion>0.0.1</AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Cadmus.Core" Version="8.0.7" />
+		<PackageReference Include="Cadmus.Mongo" Version="8.0.7" />
+		<PackageReference Include="Fusi.Microsoft.Extensions.Configuration.InMemoryJson" Version="4.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Cadmus.Iconography.Parts\Cadmus.Iconography.Parts.csproj" />
+	  <ProjectReference Include="..\Cadmus.Seed.Iconography.Parts\Cadmus.Seed.Iconography.Parts.csproj" />
+	</ItemGroup>
+
+</Project>
