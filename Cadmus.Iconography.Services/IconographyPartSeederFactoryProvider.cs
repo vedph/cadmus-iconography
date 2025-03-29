@@ -8,10 +8,10 @@ using System.Reflection;
 namespace Cadmus.Iconography.Services;
 
 /// <summary>
-/// Codicology part seeders provider.
+/// Iconography part seeders provider.
 /// </summary>
 /// <seealso cref="IPartSeederFactoryProvider" />
-public sealed class CodicologyPartSeederFactoryProvider :
+public sealed class IconographyPartSeederFactoryProvider :
     IPartSeederFactoryProvider
 {
     private static IHost GetHost(string config)

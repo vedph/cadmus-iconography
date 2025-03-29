@@ -1,5 +1,4 @@
-﻿using System;
-using System.Reflection;
+﻿using System.Reflection;
 using Cadmus.Core;
 using Cadmus.Core.Config;
 using Cadmus.Core.Storage;
@@ -14,7 +13,7 @@ namespace Cadmus.Iconography.Services;
 /// </summary>
 /// <seealso cref="IRepositoryProvider" />
 [Tag("repository-provider.iconography")]
-public sealed class CodicologyRepositoryProvider : IRepositoryProvider
+public sealed class IconographyRepositoryProvider : IRepositoryProvider
 {
     private readonly IPartTypeProvider _partTypeProvider;
 
@@ -24,11 +23,11 @@ public sealed class CodicologyRepositoryProvider : IRepositoryProvider
     public string ConnectionString { get; set; }
 
     /// <summary>
-    /// Initializes a new instance of the <see cref="CodicologyRepositoryProvider"/>
+    /// Initializes a new instance of the <see cref="IconographyRepositoryProvider"/>
     /// class.
     /// </summary>
     /// <exception cref="ArgumentNullException">configuration</exception>
-    public CodicologyRepositoryProvider()
+    public IconographyRepositoryProvider()
     {
         ConnectionString = "";
         TagAttributeToTypeMap map = new();
