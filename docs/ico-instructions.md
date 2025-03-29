@@ -17,7 +17,7 @@
   - positionNote (`string`)
   - targetLocation (`string`)
   - implementation (`string`)
-  - differences (`CodIllumInstructionDiff[]`):
+  - differences (`IcoInstructionDiff[]`):
     - type* (`string`, 📚 `ico-instruction-diff-types`)
     - target (`string`, citation range)
     - note (`string`)
