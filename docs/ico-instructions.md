@@ -10,12 +10,12 @@
   - subject (`string`)
   - script\* (`string`, 📚 `ico-instruction-scripts`)
   - text (`string`)
-  - sequences (`string[]`): like A,B,C or any other kind of symbols sequence used to guide the work.
+  - sequences (`string[]`): like A, B, C or any other kind of symbols sequence used to guide the work.
   - repertoire (`string`)
-  - location\* (`string`)
-  - position* (`string`, 📚 `ico-instruction-positions`)
+  - location\* (`string`): the location in the source (e.g. a manuscript page).
+  - position* (`string`, 📚 `ico-instruction-positions`): the relative position in the page.
   - positionNote (`string`)
-  - targetLocation (`string`)
+  - targetLocation (`string`): the location of the target image when not the same as `location`.
   - implementation (`string`)
   - differences (`IcoInstructionDiff[]`):
     - type* (`string`, 📚 `ico-instruction-diff-types`)
