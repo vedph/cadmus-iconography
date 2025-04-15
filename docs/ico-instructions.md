@@ -13,7 +13,7 @@
   - sequences (`string[]`): like A, B, C or any other kind of symbols sequence used to guide the work.
   - repertoire (`string`)
   - location\* (`string`): the location in the source (e.g. a manuscript page).
-  - position* (`string`, 📚 `ico-instruction-positions`): the relative position in the page.
+  - position\* (`string`, 📚 `ico-instruction-positions`): the relative position in the page.
   - positionNote (`string`)
   - targetLocation (`string`): the location of the target image when not the same as `location`.
   - implementation (`string`)
