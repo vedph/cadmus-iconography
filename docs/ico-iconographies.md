@@ -3,7 +3,7 @@
 - `IconographiesPart`:
   - `iconographies` (`Iconography[]`):
     - `eid` (`string`)
-    - `subjects`\* (`string[]` 📚 `iconography-macro-subjects`, categories tree)
+    - `subjects`\* (`string[]` 📚 `iconography-subjects`, categories tree)
     - `description` (`string`, MD, 5000)
     - `relCitations` (`IcoRelCitation[]`):
       - `citations`\* (`string[]` via citation brick)
