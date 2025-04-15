@@ -23,7 +23,7 @@
     - note (`string`)
   - note (`string`)
   - description (`string`)
-  - features (`string[]`, flags, 📚 `ico-instruction-feats`)
+  - features (`string[]`, flags, 📚 `ico-instruction-feats`): e.g. erased, faded, trimmed, rewritten, etc.
   - languages\* (`string[]`, flags, 📚 `ico-instruction-languages`)
   - tools (`string[]`, flags, 📚 `ico-instruction-tools`)
   - colors (`string[]`, flags, 📚 `ico-instruction-colors`)
