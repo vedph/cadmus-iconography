@@ -1,6 +1,7 @@
 # IconographyPart
 
-- `eid` (`string`)
+This is just a draft. The plan is creating an item for each iconography, with an EID in its metadata part. The following properties describe the iconography proper, but they will probably be further split into parts to favor flexibility, reuse, and expansion.
+
 - `subjects`\* (`string[]` 📚 `iconography-macro-subjects`, categories tree)
 - `description` (`string`, MD, 5000)
 - `relCitations` (`IcoRelCitation[]`):
