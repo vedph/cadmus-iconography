@@ -4,7 +4,7 @@ This solution contains a number of Cadmus parts related to iconography.
 
 - [iconography instructions part](docs/ico-instructions.md): this part is used in items which refer to iconography and may have instructions about its implementation.
 
-- **iconography** item:
+- **iconography** item example (from [NDP](https://github.com/vedph/cadmus-ndp-api)):
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
