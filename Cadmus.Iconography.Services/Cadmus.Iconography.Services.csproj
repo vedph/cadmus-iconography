@@ -19,8 +19,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Cadmus.Core" Version="8.0.7" />
-		<PackageReference Include="Cadmus.Mongo" Version="8.0.7" />
+		<PackageReference Include="Cadmus.Core" Version="8.0.10" />
+		<PackageReference Include="Cadmus.Mongo" Version="8.0.10" />
 		<PackageReference Include="Fusi.Microsoft.Extensions.Configuration.InMemoryJson" Version="4.0.0" />
 	</ItemGroup>
 

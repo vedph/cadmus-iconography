@@ -20,9 +20,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Cadmus.Core" Version="8.0.7" />
+		<PackageReference Include="Cadmus.Core" Version="8.0.10" />
 		<PackageReference Include="Cadmus.Mat.Bricks" Version="6.0.1" />
-		<PackageReference Include="Cadmus.Refs.Bricks" Version="6.0.1" />
+		<PackageReference Include="Cadmus.Refs.Bricks" Version="6.0.2" />
 		<PackageReference Include="Fusi.Antiquity" Version="5.0.1" />
 	</ItemGroup>
 
