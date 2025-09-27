@@ -46,7 +46,7 @@ public sealed class IcoInstructionsPart : PartBase
             {
                 if (entry.Eid != null) builder.AddValue("eid", entry.Eid);
 
-                foreach (string type in entry.Types) types.Add(type);
+                foreach (TaggedString type in entry.Types) types.Add(type.Value);
                 positions.Add(entry.Position);
                 if (entry.Script is not null) scripts.Add(entry.Script);
 

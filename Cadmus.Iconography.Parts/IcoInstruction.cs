@@ -19,19 +19,7 @@ public class IcoInstruction : IHasAssertion
     /// Gets or sets the instruction type(s).
     /// Usually from thesaurus <c>ico-instruction-types</c>.
     /// </summary>
-    public List<string> Types { get; set; } = [];
-
-    /// <summary>
-    /// Gets or sets the previous type(s) the instruction belonged to before
-    /// undergoing a change.
-    /// </summary>
-    public List<string>? PrevTypes { get; set; }
-
-    /// <summary>
-    /// Gets or sets the next type(s) the instruction was adapted to later
-    /// in time.
-    /// </summary>
-    public List<string>? NextTypes { get; set; }
+    public List<TaggedString> Types { get; set; } = [];
 
     /// <summary>
     /// Gets or sets the subject specific to this instruction (e.g. a character

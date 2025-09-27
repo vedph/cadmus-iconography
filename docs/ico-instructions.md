@@ -4,9 +4,9 @@
 
 - instructions (`IcoInstruction[]`):
   - eid (`string`)
-  - types\* (`string[]`, hierarchical thesaurus 📚 `ico-instruction-types`)
-  - prevTypes (`string[]`, hierarchical thesaurus 📚 `ico-instruction-types`)
-  - nextTypes (`string[]`, hierarchical thesaurus 📚 `ico-instruction-types`)
+  - types\* (`TaggedString[]`):
+    - tag (`string`, 📚 `ico-instruction-type-tags`): e.g. preceding or following.
+    - value (`string`, 📚 `ico-instruction-types`, hierarchical)
   - subject (`string`)
   - script\* (`string`, 📚 `ico-instruction-scripts`)
   - text (`string`)

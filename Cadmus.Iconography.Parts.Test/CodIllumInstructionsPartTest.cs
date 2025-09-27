@@ -77,7 +77,7 @@ public sealed class IcoInstructionsPartTest
         {
             part.Instructions.Add(new IcoInstruction
             {
-                Types = [n == 1? "odd" : "even"],
+                Types = [new TaggedString() { Value = n == 1 ? "odd" : "even" }],
                 Script = "merchant",
                 Position = n == 1 ? "margin-left" : "margin-right",
                 Differences =

@@ -20,7 +20,10 @@ public sealed class IcoInstructionsPartSeeder : PartSeederBase
         int n = Randomizer.Seed.Next(min, max + 1);
 
         return new Faker<IcoInstruction>()
-            .RuleFor(i => i.Types, f => [f.PickRandom("rubrics", "instructions")])
+            .RuleFor(i => i.Types, f => [new TaggedString()
+            {
+                Value = f.PickRandom("rubrics", "instructions")
+            }])
             .RuleFor(i => i.Subject, f => f.Lorem.Word())
             .RuleFor(i => i.Script, f => f.PickRandom("cursive", "merchant"))
             .RuleFor(i => i.Text, f => f.Lorem.Sentence())
