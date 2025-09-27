@@ -5,6 +5,7 @@ using Cadmus.Core.Storage;
 using Cadmus.Mongo;
 using Cadmus.Iconography.Parts;
 using Fusi.Tools.Configuration;
+using Cadmus.General.Parts;
 
 namespace Cadmus.Iconography.Services;
 
@@ -33,6 +34,8 @@ public sealed class IconographyRepositoryProvider : IRepositoryProvider
         TagAttributeToTypeMap map = new();
         map.Add(
         [
+            // Cadmus.General.Parts
+            typeof(NotePart).GetTypeInfo().Assembly,
             // Cadmus.Iconography.Parts
             typeof(IcoInstructionsPart).GetTypeInfo().Assembly,
         ]);

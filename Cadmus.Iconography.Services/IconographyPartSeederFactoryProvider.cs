@@ -1,5 +1,6 @@
 ﻿using Cadmus.Core.Config;
 using Cadmus.Seed;
+using Cadmus.Seed.General.Parts;
 using Cadmus.Seed.Iconography.Parts;
 using Fusi.Microsoft.Extensions.Configuration.InMemoryJson;
 using Microsoft.Extensions.Hosting;
@@ -19,6 +20,8 @@ public sealed class IconographyPartSeederFactoryProvider :
         // build the tags to types map for parts/fragments
         Assembly[] seedAssemblies =
         [
+            // Cadmus.Seed.General.Parts
+            typeof(NotePartSeeder).GetTypeInfo().Assembly,
             // Cadmus.Seed.Iconography.Parts
             typeof(IcoInstructionsPartSeeder).GetTypeInfo().Assembly,
         ];
