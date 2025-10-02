@@ -22,6 +22,7 @@ This solution contains a number of Cadmus parts related to iconography.
 
 ## History
 
+- 2025-10-02: updated test packages.
 - 2025-09-27: added general parts to providers.
 - 2025-09-27: refactored `Types` in iconography instructions.
 - 2025-09-19: updated packages.
