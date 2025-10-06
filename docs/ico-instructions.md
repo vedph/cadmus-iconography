@@ -6,8 +6,8 @@
   - eid (`string`)
   - types\* (`TaggedString[]`):
     - tag (`string`, 📚 `ico-instruction-type-tags`): e.g. preceding or following.
-    - value (`string`, 📚 `ico-instruction-types`, hierarchical)
-  - subject (`string`)
+    - value (`string`, 📚 `ico-instruction-types`)
+  - subject (`string`, 📚 `ico-instruction-subjects`, hierarchical): when you are not using iconography items, you can pick a subject from a tree.
   - script\* (`string`, 📚 `ico-instruction-scripts`)
   - text (`string`)
   - sequences (`string[]`): like A, B, C or any other kind of symbols sequence used to guide the work.
