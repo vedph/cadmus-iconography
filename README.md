@@ -22,6 +22,10 @@ This solution contains a number of Cadmus parts related to iconography.
 
 ## History
 
+### 1.0.0
+
+- 2026-01-17: updated packages.
+
 ### 0.0.6
 
 -  2025-10-08: updated packages.
