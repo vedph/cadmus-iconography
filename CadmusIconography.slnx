@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Pack.bat" />
+    <File Path="Push.bat" />
+    <File Path="PushLocal.bat" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Cadmus.Iconography.Parts.Test/Cadmus.Iconography.Parts.Test.csproj" />
+  <Project Path="Cadmus.Iconography.Parts/Cadmus.Iconography.Parts.csproj" />
+  <Project Path="Cadmus.Iconography.Services/Cadmus.Iconography.Services.csproj" />
+  <Project Path="Cadmus.Seed.Iconography.Parts.Test/Cadmus.Seed.Iconography.Parts.Test.csproj" />
+  <Project Path="Cadmus.Seed.Iconography.Parts/Cadmus.Seed.Iconography.Parts.csproj" />
+</Solution>

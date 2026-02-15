@@ -96,7 +96,8 @@ internal static class TestHelper
             chronotopes.Add(new AssertedChronotope
             {
                 Place = new AssertedPlace { Value = $"place-{n}" },
-                Date = new AssertedDate(HistoricalDate.Parse(1300 + n + " AD")!)
+                Date = new AssertedHistoricalDate(
+                    HistoricalDate.Parse(1300 + n + " AD")!)
             });
         }
 
