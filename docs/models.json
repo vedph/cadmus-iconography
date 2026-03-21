@@ -1,0 +1,24 @@
+{
+  "parts": {
+    "it.vedph.iconography.instructions": {
+      "thesauriIds": [
+        "ico-instruction-types",
+        "ico-instruction-type-tags",
+        "ico-instruction-subjects",
+        "ico-instruction-scripts",
+        "ico-instruction-diff-types",
+        "ico-instruction-positions",
+        "ico-instruction-feats",
+        "ico-instruction-languages",
+        "ico-instruction-tools",
+        "ico-instruction-colors",
+        "assertion-tags",
+        "doc-reference-types",
+        "doc-reference-tags",
+        "asserted-id-scopes",
+        "asserted-id-tags",
+        "asserted-id-features"
+      ]
+    }
+  }
+}
